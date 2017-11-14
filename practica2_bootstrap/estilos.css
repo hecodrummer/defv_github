@@ -1,0 +1,25 @@
+.carousel-inner {
+	height: 400px;
+	overflow: hidden;
+}
+
+.cards-row {
+	padding: 40px 200px;
+
+}
+
+.sinopsis-container{
+	background-image: url("http://s1.picswalls.com/wallpapers/2016/03/29/beautiful-nature-hd_04232357_304.jpg");
+	height: 500px;
+	background-position: center;
+
+}
+
+.sinopsis-texto h2 {
+	font-size: 50px;
+	color:white;
+	padding: 40px 200px;
+	border: 1px solid pink;
+	margin: 50;
+}
+

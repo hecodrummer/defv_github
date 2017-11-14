@@ -1,0 +1,40 @@
+.col-md-1 {
+	border: 1px solid;
+}
+
+
+.col-md-2 {
+	border: 1px solid pink;
+}
+
+.col-md-8 {
+	border-left: 3px solid black;
+	padding:20px;
+
+}
+#comillas {
+	font-family: Georgia, serif;
+	font-size: 3em;
+}
+
+.bio {
+	padding: 0px 80px;
+	border: 1px solid;
+}
+
+.navbar {
+	border:1px solid;
+}
+
+.row1 {
+	background-color: #efefef;
+}
+
+.col-md-4 {
+
+}
+
+.carousel-inner{
+	height: 300px;
+}
+
