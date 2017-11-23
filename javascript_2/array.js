@@ -75,12 +75,21 @@ var arregloNombre = [nombre[0], nombre[1], nombre[2], nombre[3], nombre[4], nomb
 //problema:
 //hacer una palabra intercalando mayúsculas y minusculas
 
+
 var palabra = "computación";
+//la variable palabra contiene un string
+
+var arrayPalabra = [];
+//declaramos un arreglo vacío
+
 var arrayPalabra = [palabra[0],palabra[1],palabra[2],palabra[3],palabra[4],palabra[5],palabra[6],palabra[7],palabra[8],palabra[9],palabra[10]];
+//asignamos valores a los índices del arreglo vacío mediante la variable palabra. (Los números entre corchetes son los índices del arrayPalabra)
 
 console.log(arrayPalabra); 
 
-var res = [palabra[0].toUpperCase(), palabra[1].toUpperCase(), palabra[2].toUpperCase(),  palabra[3].toUpperCase(), palabra[4].toUpperCase(), palabra[5].toUpperCase();]
+
+var res = [arrayPalabra[0].toUpperCase(), arrayPalabra[2].toUpperCase(), arrayPalabra[4].toUpperCase(),  arrayPalabra[6].toUpperCase(), arrayPalabra[8].toUpperCase(), arrayPalabra[10].toUpperCase()]
+//la variable res es igual al arreglo hecho por la variable palabra
 
 console.log(res);
 

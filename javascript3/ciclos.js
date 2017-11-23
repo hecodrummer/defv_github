@@ -14,6 +14,61 @@ var MyVar = [12, 2, 4, 6, 21, 5,];
 
 console.log(MyVar.length) 
 
+//MiCadena tiene 3 índices, por lo tanto MiCadena.lenght me arrojará el número 3.
+var MiCadena = ["lee", "stan", "roy" ]
+console.log(MiCadena.length)
+
+
+
+
+//asignando valores a un arreglo vacio
+var ArregloVacio = [];
+var ArregloVacio = prompt("escribe algo");
+console.log(ArregloVacio);
+console.log(ArregloVacio.length);
+//arregloVacio.length mostrará el numero de caracteres (incluyendo espacios) que haya escrito el usuario.
+
+console.log(ArregloVacio[1]); 
+//aquí mostrará el segundo índice del texto insertado por el usuario en prompt. En la palabra "hola" el segundo índice es o. El número entre corchetes es el 1 porque el conteo se comienza desde cero. 
+
+-------------------------------------------------
+var i = 0; 
+//esta variable es la iniciador del contador del bucle FOR
+
+//la condición (la segunda secuencia después del punto y coma) está diciendo: si i es menor a 100
+for (i = 0; i < 100; i++){
+ console.log(i);
+}
+console.log ("fin del ciclo");
+
+
+
+//imprimir los números del 1 al 100
+//si no cumple ninguna condición, imprimir número
+//evaluar cada número
+//si es múltiplo de 3 imprimir fizz
+//si es múltiplo de 5 imprimir buzz
+//si es múltiplo de 5 y 3 imprimir fizzbuzz
+
+
+var i;
+var multiplo3 = i%3; 
+
+for (i=1; i<=100; i++){ //i=1 porque así iniciamos el contador
+	if (i%3 ==0 && i%5==0){
+		console.log("fizzbuzz");//si la condición es verdadera va a romper el bucle y lo inicia de nuevo.
+	} else if (i%3 == 0){ //i%3 es igual a 0, porque si el residuo da 0 entonces quiere decir que es múltiplo de 3.
+		console.log("fizz");
+	} else if (i%5 == 0){
+		console.log("buzz");
+	} else {
+			console.log(i);
+	}	
+}
+
+ 
+
+
 // me va a mostrar 6 porque son 6 índices los que forman el arreglo
 
 //los for necesitan 3 parámetros para funcionar
@@ -21,7 +76,7 @@ console.log(MyVar.length)
 // 2 donde va a acabar - dónde el contador se va a detener
 // 3 cuánto va a aumentar el contador
 
-var VarArreglo = [2, 4 ,5, 6 ,1 ,5 ,8 , 6, 9, 2]
+var VarArreglo = [2, 4, 5, 6, 1, 5, 8, 6, 9, 2]
 
 var i 
 
@@ -34,6 +89,7 @@ for (i = 0; i < VarArreglo.length ; i ++) {
 	suma = suma + VarArreglo[i]
 }
 
+-----------------------------------------------------
 -----------------------------------------------------
 
 var VarArreglo = ["a", "b" ,"c", "d" ,"e"]
@@ -50,6 +106,7 @@ for (i = 0; i < VarArreglo.length ; i ++) {
 }
 
 -----------------------------------------------------
+-----------------------------------------------------
 
 //EJERCICIO: preguntar una palabra o frase e imprimir cada letra por separado
 
@@ -58,17 +115,15 @@ for (i = 0; i < VarArreglo.length ; i ++) {
 var pregunta = [];
 var pregunta = prompt();
 
+console.log(pregunta)
 
-//console.log (pregunta[1])
+var i;
 
-var i
-
-for (i = 0; i < pregunta.length ; i ++) {
-
-	//console.log(VarArreglo[i])
-
-	suma = suma + pregunta[i];
+for(i=0; i == pregunta.length; i ++ ){
+	console.log(i)
 }
+
+
 
 
 

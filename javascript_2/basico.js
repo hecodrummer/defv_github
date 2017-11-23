@@ -52,7 +52,9 @@ if(jugador1 == "piedra" && jugador2 == "piedra"){
 	alert("Empate");
 } else if(jugador1 == "papel" && jugador2 == "papel"){
 	alert("Empate");
-} else if 
+} else if (jugador1 == "tijeras" && jugador2 == "tijeras"){
+	alert("¡Empate!");
+}
 
 
 
