@@ -28,22 +28,63 @@
         </div>
 
         <div class="row">
-        	<div class="container">
-	        	<div class="col s4">
+        	<div class="container"><!--
+	        	<div class="col s2"><!-formulario de formspree-
 					<form method="POST" action="http://formspree.io/hecarchundia@gmail.com">
 					  <input name="email" placeholder="Tu email" type="email">
 					  <input name="nombre" placeholder="Tu nombre" type="text">
 					  <textarea name="message" placeholder="Tu mensaje"></textarea>
 					  <button type="submit">Enviar</button>
 					</form>
-				</div><!--//formulario de formspree-->
-				<div class="col s8 teal lighten-4"><!--formulario propio-->
+				</div><!-//formulario de formspree-->
+				<div class="col s3"><!--formulario propio-->
 					<!--ver archivo javascript propio pues vamos a usar el input en javascript. Mandaremos llamar la etiqueta id-->
-						<input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre">
-						 
+						<input type="text" name="nombre" placeholder="Escribe un número" id="num1suma">
+						<input type="text" name="nombre" placeholder="Escribe otro número" id="num2suma">
+
+						<button onclick="sumaDosNumeros()">SUMA</button>
+
+						<p>El resultado de la suma es
+						<strong><span id=resultado></span></strong></p>
+
+				</div><!--//formulario propio-->
+				<div class="col s3"><!--formulario propio-->
+					<!--ver archivo javascript propio pues vamos a usar el input en javascript. Mandaremos llamar la etiqueta id-->
+						<input type="text" name="nombre" placeholder="Escribe un número" id="num1resta">
+						<input type="text" name="nombre" placeholder="Escribe otro número" id="num2resta">
+
+						<button onclick="restaDosNumeros()">RESTA</button>
+
+						<p>El resultado de la resta es
+						<strong><span id=resultadoResta></span></strong></p>
+
+				</div><!--//formulario propio-->
+				<div class="col s3"><!--formulario propio-->
+					<!--ver archivo javascript propio pues vamos a usar el input en javascript. Mandaremos llamar la etiqueta id-->
+						<input type="text" name="nombre" placeholder="Escribe un número" id="factor1">
+						<input type="text" name="nombre" placeholder="Escribe otro número" id="factor2">
+
+						<button onclick="multiDosNumeros()">MULTIPLICACIÓN</button><!--el atributo onclick está mandando llamar la función hecha en javascript-->
+
+						<p>El resultado de la multiplicación es
+						<strong><span id=resultadoMulti></span></strong></p>
+
+				</div><!--//formulario propio-->
+				<div class="col s3"><!--formulario propio-->
+					<!--ver archivo javascript propio pues vamos a usar el input en javascript. Mandaremos llamar la etiqueta id-->
+						<input type="text" name="nombre" placeholder="Escribe un número" id="dividendo">
+						<input type="text" name="nombre" placeholder="Escribe otro número" id="divisor">
+
+						<button onclick="divisionDosNum()">DIVISIÓN</button>
+
+						<p>El resultado de la división es
+						<strong><span id=cociente></span></strong></p>
+
 				</div><!--//formulario propio-->
 			</div>
 		</div>
+		<div class="row"><!--segunda row-->
+		</div><!--/segunda row-->
 
 
 

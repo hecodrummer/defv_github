@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra papel y tijera con Javascript</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body>
+	
+	<div class="row">
+		<div class="container">
+			<h1>Piedra, papel o tijeras</h1>
+			<p>Escribe piedra, papel o tijeras en los campos debajo</p>
+			<input type="text" id=j1 placeholder="Jugador1" class="col s4">
+			<input type="text" id=j2 placeholder="Jugador2" class="col s4">
+			<button class="btn" onclick="jugar()">Jugar</button>
+		<div class="col s12">
+			<strong style="color:red;"><h1 id="resultado"></h1></strong>
+		</div>
+		</div><!--//container-->
+	</div><!--//row-->
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra papel y tijera con Javascript</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body>
+
+	<!--Podemos usar radio buttons para ver las selecciones de las imágenes haciendo una caja para las imagenes del jugador 1, luego otra caja para las imagenes del jugador2 y al final un boton de jugar-->
+	
+	<div class="row">
+		<div class="container">
+			<h1>Piedra, papel o tijeras</h1>
+			<p>Elije piedra, papel o tijeras con las imágenes para cada jugador.</p>
+			<div class="row"><!--segunda row-->
+				<div class="col s4"><!--piedra-->
+					<input type="image" src="https://i.pinimg.com/originals/16/58/fe/1658fe5852dbdb01852883b981aa0aba.png" height="100" width="100">
+				</div>
+				<div class="col s4"><!--papel-->
+					<input type="image" src="https://i.pinimg.com/originals/16/58/fe/1658fe5852dbdb01852883b981aa0aba.png" height="100" width="100">
+				</div>
+				<div class="col s4"><!--tijeras-->
+					<input type="image" src="https://i.pinimg.com/originals/16/58/fe/1658fe5852dbdb01852883b981aa0aba.png" height="100" width="100">
+				</div>
+			</div><!--//segunda row-->
+
+
+
+			<button class="btn" onclick="jugar()">Jugar</button>
+		<div class="col s12">
+			<strong style="color:red;"><h1 id="resultado"></h1></strong>
+		</div>
+		</div><!--//container-->
+	</div><!--//row-->
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
